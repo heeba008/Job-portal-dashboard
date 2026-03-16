@@ -7,23 +7,23 @@ A fully functional job search and application tracking dashboard built with **va
 ---
 
 ## Live Demo
-🔗 **[View Live on GitHub Pages](https://heeba008.github.io/job-portal-dashboard)**
+🔗 **[View Live on GitHub Pages](https://heeba008.github.io/Job-portal-dashboard)**
 
 ---
 
 ## Screenshots
 
 ### Login Screen
-![Login Screen](screenshots/login.png)
+![Login Screen](Screenshot%202026-02-13%20204355.png)
 
 ### Dashboard — Job Listings
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshot%202026-02-13%20204413.png)
 
 ### Job Cards with Apply & Bookmark
-![Job Cards](screenshots/job-cards.png)
+![Job Cards](Screenshot%202026-02-13%20204455.png)
 
-### Dark Mode
-![Dark Mode](screenshots/dark-mode.png)
+### Dark Mode / More Features
+![More Features](Screenshot%202026-02-13%20204523.png)
 
 ---
 
@@ -78,28 +78,10 @@ JavaScript  — Vanilla ES6+, DOM manipulation, localStorage, state management
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/heeba008/job-portal-dashboard.git
+git clone https://github.com/heeba008/Job-portal-dashboard.git
 
-# 2. Open the file in your browser
-# No server needed — just double-click job-portal.html
-```
-
-Or simply open `job-portal.html` in any modern browser. Works completely offline.
-
----
-
-## Project Structure
-
-```
-job-portal-dashboard/
-│
-├── job-portal.html        # Complete app — HTML + CSS + JS in one file
-├── screenshots/           # UI screenshots for README
-│   ├── login.png
-│   ├── dashboard.png
-│   ├── job-cards.png
-│   └── dark-mode.png
-└── README.md
+# 2. Open the file in your browser — no server needed
+# Just double-click job-portal.html
 ```
 
 ---
@@ -108,9 +90,9 @@ job-portal-dashboard/
 
 - How to manage **application state in vanilla JS** without any framework — tracking which jobs are applied or bookmarked using JavaScript `Set` objects
 - Building a **real-time search** that filters across multiple fields simultaneously without any library
-- Implementing **dark mode** properly using CSS custom properties (`--variables`) so every component switches cleanly with one class toggle
-- Writing **modular, readable JavaScript** even in a single-file project by organizing functions clearly
-- The importance of **empty states and user feedback** — what the app shows when there are no results or no saved jobs is just as important as the happy path
+- Implementing **dark mode** properly using CSS custom properties so every component switches cleanly with one class toggle
+- Writing **modular, readable JavaScript** in a single-file project by organizing functions clearly
+- The importance of **empty states and user feedback** — what the app shows when there are no results matters just as much as the happy path
 
 ---
 
@@ -121,7 +103,6 @@ job-portal-dashboard/
 - [ ] Application status tracking (Applied → Interview → Offer)
 - [ ] Pagination for large job lists
 - [ ] Sort by date, relevance, or salary
-- [ ] Export saved jobs to PDF
 
 ---
 
@@ -137,4 +118,4 @@ job-portal-dashboard/
 
 ---
 
-*This project is part of my frontend development portfolio. Open to frontend developer and graduate trainee opportunities. *
+*This project is part of my frontend development portfolio. Open to frontend developer and graduate trainee opportunities .*
